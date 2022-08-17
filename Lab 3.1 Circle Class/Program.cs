@@ -26,8 +26,8 @@ do
 	}
 	
 
-	Circle circle = new Circle(radius);
-	Console.WriteLine($"\nThe circumference is: {circle.CalculateCircumference()}{circleCount++}");
+	Circle circle = new Circle(radius); //This is where the circle is actually created 
+	Console.WriteLine($"\nThe circumference is: {circle.CalculateCircumference()}");
 	Console.WriteLine($"The area is: {circle.CalculateArea()}{circleCount++}");
 } while (KeepGoing());
 Console.WriteLine($"Goodbye! You created {circleCount} circles!");
@@ -63,25 +63,23 @@ static bool KeepGoing()
 
 class Circle
 {
-    double radius;
+    public double radius; //what the object has in it
     
-
-
-    public Circle(double _radius)
+    public Circle(double _radius) //Constructor
     {
         radius = _radius; 
     }
 
 
-    public double CalculateCircumference()
+    public double CalculateCircumference() //Attributes and capabilities
     {
         double circumference = Math.PI * radius;
         return Math.Round(circumference, 2);
         
 
     }
-    public double CalculateArea()
-    {
+    public double CalculateArea()         //Attributes and capabilities
+	{
         double area = (Math.PI * radius * radius);
         return Math.Round(area, 2);
     }

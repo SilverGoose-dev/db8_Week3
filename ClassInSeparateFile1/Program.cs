@@ -20,3 +20,7 @@ Console.WriteLine(rect3);
 
 
 Console.WriteLine(Rectangle.Count);
+
+string entry = "10";
+Console.WriteLine(int.Parse(entry));
+

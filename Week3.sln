@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Review", "Review\Review.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassInSeparateFile1", "ClassInSeparateFile1\ClassInSeparateFile1.csproj", "{AF4CA04F-B1D2-48BB-AAF1-285A8B47D07E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieDB Demo", "MovieDB Demo\MovieDB Demo.csproj", "{FCF3BCA6-354D-4595-ABA7-F4CE95D962BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +88,10 @@ Global
 		{AF4CA04F-B1D2-48BB-AAF1-285A8B47D07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF4CA04F-B1D2-48BB-AAF1-285A8B47D07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF4CA04F-B1D2-48BB-AAF1-285A8B47D07E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF3BCA6-354D-4595-ABA7-F4CE95D962BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF3BCA6-354D-4595-ABA7-F4CE95D962BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF3BCA6-354D-4595-ABA7-F4CE95D962BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF3BCA6-354D-4595-ABA7-F4CE95D962BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
